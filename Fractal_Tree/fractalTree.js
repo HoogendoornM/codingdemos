@@ -6,7 +6,7 @@ var steps = 0;
 var slider;
 
 function setup() {
-  createCanvas(displayWidth / 2, displayHeight / 2);
+  createCanvas(800, 600);
   slider = createSlider(0, TWO_PI, PI / 4, 0.01);
   sliderSteps = createSlider(1, 13, 10, 1);
   sliderLenMul = createSlider(0, 2, 0.7, 0.01);
