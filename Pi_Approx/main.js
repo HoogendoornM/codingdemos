@@ -18,7 +18,7 @@ function setup() {
   rect(2.5, 2.5, r * 2, r * 2);
 
   amount = createSlider(0, 10, 1, 1);
-  amount.style('width', '50%');
+  amount.style('width', width - 10 + 'px');
 
   piDiv = createDiv('Pi');
 }
