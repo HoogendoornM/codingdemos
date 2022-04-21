@@ -15,4 +15,10 @@ input {
 
 a {
   font-size: 1.5em;
+
+}
+
+a.navbar-brand {
+  font-size: 2em;
+  margin-left: 0.3em;
 }
