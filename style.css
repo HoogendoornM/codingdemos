@@ -18,6 +18,10 @@ a {
 
 }
 
+a:visited {
+  background-color: #e0ffe3 !important;
+}
+
 a.navbar-brand {
   font-size: 2em;
   margin-left: 0.3em;
